@@ -1,1 +1,166 @@
-"Hello World" 
+  <!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Rodrigo Lee</title>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="icon" href="static/images/icon.jpg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <!-- google icons/fonts -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <!-- materialize.css / other css-->
+    <link rel='stylesheet' type='text/css' href='static/css/materialize.min.css' media='screen,projection'>
+    <link rel='stylesheet' type='text/css' href='static/css/materialize.css'>
+    <link rel='stylesheet' type='text/css' href='static/css/style.css'>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="static/js/materialize.min.js"></script>
+    <script type="text/javascript" src="static/js/main.js"></script>
+  </head>
+  <body>
+    <div id='wrapper'>
+      <div id='landing'>
+        <div class='navbar-fixed' style='height: 20px;'>
+          <nav class='blue' style='height: 35px; line-height: 30px;'>
+		      	<div class="nav-wrapper">
+            	<a id='to-top' href="#" class="brand-logo" style='font-weight: 100 color: white' href="resume.doc" target='_blank'
+              title="Resume">Resume</a>
+            	<ul id="nav-mobile" class="right hide-on-med-and-down">
+            	  <li class='navtext'><a id='to-about-me' href="#">About Me</a></li>
+            	  <li class='navtext'><a id='to-projects' href="#">Projects</a></li>
+            	  <li class='navtext'><a id='to-skills' href="#">Skills</a></li>
+            	  <li class='navtext'><a id='to-contact' href="#">Contact</a></li>
+              </ul>
+          	</div>
+          </nav>
+        </div>
+        <div class='landing-image'>
+          <img class='main-wallpaper' src='static/images/background1.jpg'>
+          <h1 class='landing-name center-align zoomInDown animated'>Rodrigo Lee</h1>
+        </div>
+      <div id='about-me'>
+        <div class='section white'>
+		  	  <div class='row container center-align'>
+          	<h1 id='about-me-text' style='opacity: 0;'>About Me</h1>
+            <img id='self-portrait' src='static/images/rodrigolee.jpg' style='opacity: 0; float: left'>
+		  	  	<p style ='font-size: 24px;margin-right:35px;' id='about-text'>Highly motivated, creative full-stack web developer who works well with others. A logical problem-solver with a desire to better myself and those around me each and every day. Works well under pressure and can adapt to unforeseen changes.</p>
+		  	  </div>
+        </div>
+      </div>
+      <div class='parallax-container'>
+        <div class='parallax'><img src='static/images/background2.jpg' style='width: 100%;'></div>
+      </div>
+      <div id='projects'>
+        <div class='section container'>
+          <h1 id='project-text' class='center-align' style='opacity: 0;'>Projects</h1>
+          <a>Click for description</a>
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>Artistry</div>
+              <div class="collapsible-body"><span>A yelp within a yelp</span><a style="margin-left:40px;" href="https://github.com/rodrigolee/Artistry">Project URL</a></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>WishList</div>
+              <div class="collapsible-body"><span>Lets users save up to buy stuff</span><a style="margin-left:40px;" href="https://github.com/rodrigolee/Wishlist">Project URL</a></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">filter_drama</i>TodoList</div>
+              <div class="collapsible-body"><span>Great stuff helped me a whole bunch</span><a style="margin-left:40px;" href="https://github.com/rodrigolee/TodoList">Project URL</a></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">whatshot</i>Mini-Mean-Store</div>
+              <div class="collapsible-body"><span>Template for stores</span><a style="margin-left:40px;" href="https://github.com/rodrigolee/Mini-Mean-Store">Project URL</a></div>
+            </li>
+          </ul>
+         </div>
+        </div>
+      <div class="parallax-container">
+      <div class="parallax"><img src="static/images/background3.jpg"></div>
+      </div>
+      <div id='skills'>
+        <div class='section white'>
+          <h1 id='skills-text' class='center-align' style='opacity: 0;'>Skills</h1>
+          <div class='row container'>
+            <ul id='staggered-stacks'>
+              <li style='opacity: 0;'>
+                <div class='col s4'>
+                  <img class='stacks' src='static/images/mean.png'>
+                  <p class='flow-text'>Mean</p>
+                  <p>MongoDB</p>
+                  <p>ExpressJS</p>
+                  <p>Angular2</p>
+                  <p>NodeJS</p>
+                </div>
+              </li>
+                <li style='opacity: 0;'>
+                  <div class='col s4'>
+                    <img class='stacks' src='static/images/python.png'>
+                    <p class='flow-text'>Python</p>
+                    <p>Django</p>
+                    <p>Flask</p>
+                    <p>MySQL</p>
+                  </div>
+                </li>
+              <li style='opacity: 0;'>
+                <div class='col s4'>
+                  <img class='stacks' src='static/images/swift.png'>
+                  <p class='flow-text'>iOS</p>
+                  <p>Swift</p>
+                  <p>Xcode</p>
+                  <p>iOS</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class='row container'>
+            <ul id='staggered-stacks2'>
+              <li style='opacity: 0;'>
+                <div class='col s3'>
+                  <p class='flow-text'>Bootstrap</p><br>
+                  <p class='flow-text'>Materialize</p><br>
+                </div>
+              </li>
+              <li style='opacity: 0;'>
+                <div class='col s3'>
+                  <p class='flow-text'>jQuery</p><br>
+                  <p class='flow-text'>HTML5</p><br>
+                </div>
+              </li>
+                  <li style='opacity: 0;'>
+                    <div class='col s3'>
+                  <p class='flow-text'>CSS3</p><br>
+                  <p class='flow-text'>Socket.io</p><br>
+                </div>
+              </li>
+              <li style='opacity: 0;'>
+                <div class='col s3'>
+                  <p class='flow-text'>AWS</p><br>
+                  <p class='flow-text'>bcrypt</p><br>
+                </div>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+		  <footer class="page-footer white">
+      	<div id='contact' class="container">
+          <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="static/images/email.png">rodrigoleee@yahoo.com</a>
+            <a class="carousel-item" href="#two!"><img src="static/images/phone2.png">(714)-351-1460</a>
+            <a class="carousel-item" href="https://www.linkedin.com/in/rodrigo-lee-395153110"><img src="static/images/linkedin2.png"></a>
+            <a class="carousel-item" href="https://www.github.com/rodrigolee"><img src="static/images/github2.png"></a>
+            <a class="carousel-item" href="https://www.facebook.com/rodrigo.lee.3"><img src="static/images/facebook.png"></a>
+            <a>Click on image to be redirected</a>
+          </div>
+        </div>
+        <div class="footer-copyright">
+        	<div class="container">
+            <span style='color: black;'>© 2017 Rodrigo Lee</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  </body>
+</html>
